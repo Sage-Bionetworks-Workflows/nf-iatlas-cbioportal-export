@@ -1,0 +1,31 @@
+# pipeline.yaml
+
+defaults:
+  clinical_input_synid: "syn66314245"
+  cli_to_oncotree_mapping_synid: "syn66313842"
+  cli_to_cbio_mapping_synid: "syn66276162"
+
+datasets:
+  Anders_JITC_2022:
+    maf_input_synid: "syn69706599"
+    neoantigen_syn_id: "syn69831975"
+    lens_id_mapping_synid: "syn69831963"
+    output_folder_synid: syn69834208
+
+  HugoLo_IPRES_2016:
+    maf_input_synid: "syn69699829"
+    neoantigen_syn_id: "syn69918152"
+    lens_id_mapping_synid: null
+    output_folder_synid: "syn68685678"
+
+  IMmotion150:
+    maf_input_synid: "syn69706599"
+    neoantigen_syn_id: "syn69918168"
+    lens_id_mapping_synid: null
+    output_folder_synid: "syn68685687"
+
+  Riaz_Nivolumab_2017:
+    maf_input_synid: "syn39824812"
+    neoantigen_syn_id: null
+    lens_id_mapping_synid: null
+    output_folder_synid: null
